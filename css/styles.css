@@ -1125,6 +1125,12 @@ pre code {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+    /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
 
   .col-md-7 {
     flex: 0 0 58.3333333333%;
