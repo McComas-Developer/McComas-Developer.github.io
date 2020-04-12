@@ -217,17 +217,6 @@ caption {
   caption-side: bottom;
 }
 
-/* Bottom right text */
-.text-block {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 th {
   text-align: inherit;
 }
@@ -9824,6 +9813,17 @@ a.text-dark:hover, a.text-dark:focus {
 
 .text-body {
   color: #212529 !important;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .text-muted {
