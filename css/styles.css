@@ -1128,6 +1128,7 @@ pre code {
     /* Top left text */
   .top-left {
     position: absolute;
+    color: white;
     top: 8px;
     left: 16px;
   }
