@@ -1120,6 +1120,7 @@ pre code {
   .centered {
     position: absolute;
     color: white;
+    bottom: 8px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
