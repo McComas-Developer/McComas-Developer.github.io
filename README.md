@@ -1,17 +1,10 @@
-# deeplinking
+# Deeplinking Demonstration Issue
 
 An example flutter project to demonstrate deeplinking issues between Anroid and iOS
 
-## Getting Started
+The web app: https://mccomas-developer.github.io
 
-This project is a starting point for a Flutter application.
+# Video Demonstration
+* GoRouter 7.0.0
+https://github.com/McComas-Developer/McComas-Developer.github.io/assets/55296063/8f586d2b-d032-498a-8236-251600300538
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# McComas-Developer.github.io
