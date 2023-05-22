@@ -1,6 +1,6 @@
 import 'package:deeplinking/navigation/mobile_app_root.dart';
+import 'package:deeplinking/url_strategy_noop.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_web_plugins/url_strategy.dart';
 
 void main() {
   usePathUrlStrategy();

@@ -89,12 +89,7 @@ class MobileAppRootState extends State<MobileAppRoot> {
       routeInformationParser: _router.routeInformationParser,
       routeInformationProvider: _router.routeInformationProvider,
       debugShowCheckedModeBanner: true,
-      builder: (context, child) {
-        return MediaQuery(
-            data: MediaQuery.of(context).copyWith(textScaleFactor: 1.0),
-            child: child!
-        );
-      },
+      builder: (context, child) => child!
     );
   }
 }
