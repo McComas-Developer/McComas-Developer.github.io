@@ -2,6 +2,7 @@ import 'package:deeplinking/navigation/scaffold_with_nav_bar_tab_item.dart';
 import 'package:deeplinking/ui/feed.dart';
 import 'package:deeplinking/ui/profile.dart';
 import 'package:deeplinking/ui/settings.dart';
+import 'package:deeplinking/ui/url_error.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'bottom_tab_bar_shell_route.dart';
@@ -55,6 +56,7 @@ class MobileAppRootState extends State<MobileAppRoot> {
     return GoRouter(
       navigatorKey: NavKeys.rootNavigatorKey,
       initialLocation: '/feed',
+      errorBuilder: (context, state) => UrlError(url: state.location),
       routes: <RouteBase>[
         BottomTabBarShellRoute(
           tabs: _tabs,
