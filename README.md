@@ -6,5 +6,6 @@ The web app: https://mccomas-developer.github.io
 
 # Video Demonstration
 * GoRouter 7.0.0
-https://github.com/McComas-Developer/McComas-Developer.github.io/assets/55296063/8f586d2b-d032-498a-8236-251600300538
+
+![Demo](https://github.com/McComas-Developer/McComas-Developer.github.io/assets/55296063/8f586d2b-d032-498a-8236-251600300538)
 
